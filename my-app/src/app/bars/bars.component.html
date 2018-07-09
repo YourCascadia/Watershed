@@ -1,0 +1,9 @@
+<div *ngFor="let bar of bars" class="prebars">
+  	<div class="numbers">
+  		{{bar.descriptor}} <span [ngClass]="(bar.result > 70)?'green':(bar.result > 50)?'yellow':'red'"  class="value">{{bar.value}}</span><span class="over">{{bar.over}}</span>
+  	</div>
+  	<div class="bars">
+  		<div [ngClass]="(bar.result > 70)?'green':(bar.result > 50)?'yellow':'red'" class="bar" [style.width.%]="bar.result"></div>
+  	</div>
+  	<div class="level">{{bar.level}}</div>
+  </div>

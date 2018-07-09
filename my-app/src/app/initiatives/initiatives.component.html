@@ -1,0 +1,4 @@
+<h2>{{ title }}</h2>
+<div class="initiatives" *ngFor="let i of data">
+  <p><b>{{ i.initiative }}</b> - {{ i.action }} <span [style.color]="{'color': i.color}">{{ i.update }}</span></p>
+</div>

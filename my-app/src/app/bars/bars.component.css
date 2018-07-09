@@ -1,0 +1,83 @@
+.bar {
+	-moz-border-radius: 25px 0px 0px 25px;
+    -webkit-border-radius: 25px 0px 0px 25px;
+	border-radius:25px 0px 0px 25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	text-align:center;
+  background-color:red;
+	width:0%;
+	color:black;
+	box-shadow:inset 0px -1px 3px black;
+}
+
+.bar.yellow {
+	background-color:yellow;
+}
+.bar.red {
+	background-color:red;
+}
+.bar.green {
+	background-color:green;
+}
+.value {
+	font-weight:bold;
+}
+.value.yellow {
+  color:yellow;
+}
+.value.red {
+  color:red;
+}
+.value.green {
+  color:green;
+}
+.over {
+	font-size:10px;
+}
+.numbers {
+	width: 100%;
+	float: left;
+	display: block;
+}
+.level {
+	width:30px;
+	font-size:10px;
+	float: left;
+	margin-top: 1px;
+	padding-left: 9px;
+	position:relative;
+}
+.level:before {
+	content: "lv. ";
+}
+.over:before {
+	content:"/";
+}
+.prebars {
+	font-size:1.2em;
+	width:100%;
+	display:inline-block;
+}
+.otherprofile .prebars {
+	padding-left:25px;
+	width:100%;
+}
+.bars {
+	width: calc(100% - 39px);
+	margin-top: 3px;
+	display: block;
+	max-height:10px;
+	overflow:hidden;
+	margin-bottom: 12px;
+	float: left;
+	background-color:white;
+	-moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+	border-radius:25px;
+	box-shadow:inset 0px 0px 7px black;
+}
+.bar span {
+	display:none;
+}

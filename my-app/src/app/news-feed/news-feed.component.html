@@ -1,0 +1,10 @@
+<div class="feed">
+ <div class="innerfeed" *ngFor="let item of news">
+   <div class="feedImg"><img src="assets/profileImages/{{item.imgPath}}"></div>
+   <div class="feedtext">
+     <a routerLink="/profile/:{{item.id}}"><h3>{{ item.userName }}</h3></a>
+     <p [innerHTML]="item.action"></p>
+     <p>{{ item.when | date:'medium' }}</p>
+   </div>
+ </div>
+</div>

@@ -1,0 +1,18 @@
+<div class="badges" >
+  <div  class="badgelist">
+    <!-- <div ng-repeat="n in e" class="badge b{{n.n}}"></div> -->
+    <div *ngFor="let badge of badges" class="badge"><img src="{{badge.imgPath}}" /></div>
+  </div>
+  <!-- <div class="bafter">...</div> -->
+</div>
+
+<!-- <div class="feed">
+ <div class="innerfeed" *ngFor="let item of news">
+   <div class="feedImg"><img src="assets/profileImages/{{item.imgPath}}"></div>
+   <div class="feedtext">
+     <a routerLink="/profile/:{{item.id}}"><h3>{{ item.userName }}</h3></a>
+     <p [innerHTML]="item.action"></p>
+     <p>{{ item.when | date:'medium' }}</p>
+   </div>
+ </div>
+</div> -->

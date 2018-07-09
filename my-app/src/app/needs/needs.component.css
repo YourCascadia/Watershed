@@ -1,0 +1,49 @@
+.ad {
+	display:block;
+	background-color:black;
+	-moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+	padding:12px;
+	margin-bottom:12px;
+}
+.ad.exposed {
+	z-index:999;
+	width: 300px;
+	border-radius: 0px;
+	float: left;
+	height: auto;
+	background-color: rgba(0,0,0,0);
+	margin-bottom: 0px;
+}
+.ad.exposed h1 {
+	display:block;
+	/* color:black; */
+	font-size: 1.3em;
+	margin-bottom: 1px;
+}
+.ad.exposed h1:before {
+	display:none;
+
+}
+.ad.exposed ul {
+	display: inline;
+}
+.ad.exposed ul li {
+	display: inline-block;
+	/* color: white; */
+}
+
+
+.Needs {
+	color:red;
+}
+.Wants {
+	color:yellow;
+}
+.Has {
+	color:green;
+}
+.Will {
+	color:lightblue;
+}

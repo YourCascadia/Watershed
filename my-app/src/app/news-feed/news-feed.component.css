@@ -1,0 +1,69 @@
+.feed {
+	width:38.2%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	display:block;
+	overflow-x:hidden;
+	float: right;
+	right: 0;
+	-moz-border-radius: 0px 12px 12px 0px;
+    -webkit-border-radius: 0px 12px 12px 0px;
+	border-radius: 0px 12px 12px 0px;
+}
+.feedtext {
+	margin-left:79px;
+}
+.feed .innerfeed {
+	background-color:lightblue;
+	color:black;
+	width: 100%;
+	min-height:100px;
+	padding:12px;
+}
+.innerfeed h3, .innerfeed p {
+	line-height:1.5;
+	margin:0;
+	font-size:.8em;
+	padding:0;
+	white-space:normal;
+}
+.innerfeed h3 {
+	color:blue;
+}
+.innerfeed h3:hover {
+	cursor:pointer;
+	text-decoration:underline;
+}
+.innerfeed p + p {
+	font-style:italic;
+	padding-top:5px;
+}
+.feed:last-child::after {
+  content: "No More posts for now";
+  display: block;
+  background-color: lightcoral;
+  padding: 15px;
+  text-align: center;
+}
+.feedImg {
+	float:left;
+	width:67px;
+	height:67px;
+	display:block;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	margin-right:12px;
+	-moz-overflow:hidden;
+	-webkit-overflow:hidden;
+	overflow: hidden;
+	cursor:pointer;
+	box-shadow: -3px 3px 5px rgba(51,51,51, .5);
+}
+.feed .innerfeed p span {
+	font-weight:bold;
+}
+.feed .innerfeed:nth-child(odd) {
+	background-color:lightgrey;
+}

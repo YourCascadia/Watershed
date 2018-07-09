@@ -1,0 +1,49 @@
+#contextmenu {
+	display:block; /* just for testing default setting is none, but that may change with angular */
+	min-width:300px;
+	min-height:100px;
+	margin-left:24px;
+	margin-top:24px;
+	width: auto;
+	height: auto;
+	background-color: grey;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+	border: 5px solid grey;
+	border-top: 30px solid grey;
+	position:fixed;
+	z-index: 999;
+	box-shadow: -2px 2px 10px rgba(0, 0, 0, .5);
+	transition:all 0.3s ease;
+}
+#contextmenu.false {
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+}
+#contextmenu.true {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+}
+#contextmenu .innercontent {
+	padding:10px;
+	border-radius:5px 5px 10px 10px;
+	min-height:100px;
+  background-color:white;
+}
+#contextmenu h2 {
+	margin:0;
+	font-style:italic;
+	font-size:20px;
+}
+#contextmenu ul {
+	margin:10px;
+	list-style:none;
+	padding-left:10px;
+}
+#contextmenu ul li:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}

@@ -1,0 +1,40 @@
+
+
+<div class="profiletop">
+	<div id="pic" class="leftshadow profilepic" ><img src="assets/images/bearman.jpg" title="Profile Picture"></div>
+	<div class="profiletext">
+		<h2>{{data[0].name}}</h2>
+		<h2><span>{{data[0].location}}</span></h2>{{data[0].quote}}
+	</div>
+</div>
+
+<div data-role="page" id="content">
+	<div id="right" class="levelone right">
+		<div class="grid">
+			<nav-button></nav-button>
+			<tree-map></tree-map>
+			<cbfs-graph></cbfs-graph>
+			<simulations></simulations>
+			<initiatives></initiatives>
+			<proxies></proxies>
+		</div>
+	</div>
+
+<news-feed></news-feed>
+</div>
+<div data-role="page" id="profile" >
+	<div class="levelone left" id="left">
+		<div class="profileinfo" >
+			<app-badges></app-badges>
+			<bars></bars>
+			<ad></ad>
+			<!-- <div class="ad" ng-controller="ad">
+					<input type="text" ng-model="search" value="Search" class=""/>
+					<ul ng-repeat="x in barter" class="{{ x.name }}">
+					<h1>{{ x.name }}</h1>
+					<li ng-repeat="item in x.items|filter:search">{{ item }},&nbsp;</li>
+				</ul>
+			</div> -->
+		</div>
+	</div>
+</div>

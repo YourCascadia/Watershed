@@ -1,0 +1,83 @@
+<div class="canvas" >
+	<div id="badgemenu">
+		<div class="xbutton">
+			<h3>X</h3>
+		</div>
+		<div class="innercontent">
+			<div class="badges" >
+				<div class="badgelist">
+					<!-- <div ng-repeat="n in e" class="badge b{{n.n}}"></div> -->
+				</div>
+				{{title}}{{string}}
+
+			</div>
+			<div class="badgehighlight"></div>
+		</div>
+	</div>
+	<div class="profiletop">
+		<div id="pic" class="leftshadow profilepic" ><img src="assets/images/bearman.jpg" title="Profile Picture"></div>
+		<div class="profiletext">
+			<h2>{{data[0].name}}</h2>
+			<h2><span>{{data[0].location}}</span></h2>{{data[0].quote}}
+		</div>
+	</div>
+	<div id="profilemenu">
+		<div id="profilesmall"><img src="assets/images/bearman.jpg"></div>
+		<div id="profilebuttons">
+			<div class="buttons"><img src="assets/images/bearman.jpg"></div>
+			<div class="buttons"><img src="assets/images/bearman.jpg"></div>
+		</div>
+	</div>
+	<div class="middle rightshadow" id="button">
+		<div class="exists" id="buttonleft">
+			<div class="arrowleft bounceleft" id="bleftarrow"></div>
+		</div>
+		<div class="exists" id="buttonright">
+			<div class="arrowright bounceright" id="brightarrow"></div>
+		</div>
+	</div>
+	<div data-role="page" id="content">
+		<div id="right" class="levelone right">
+      <div class="profiletop">
+        <div id="pic" class="leftshadow profilepic" ><img src="assets/images/bearman.jpg" title="Profile Picture"></div>
+        <div class="profiletext">
+          <h2>{{data[0].name}}</h2>
+          <h2><span>{{data[0].location}}</span></h2>{{data[0].quote}}
+        </div>
+      </div>
+	</div>
+
+	<news-feed></news-feed>
+</div>
+<div data-role="page" id="profile" >
+	<div class="levelone left" id="left">
+		<div class="profileinfo" >
+			<div class="badges">
+				<div  class="badgelist">
+					<!-- <div ng-repeat="n in e" class="badge b{{n.n}}"></div> -->
+				</div>
+				<div class="bafter">...</div>
+			</div>
+			<div class="prebars" >
+				<div class="numbers">
+					<!-- {{x.title}} <span class="number">{{x.number}}</span><span class="over">{{x.over}}</span> -->
+				</div>
+				<div class="bars">
+					<div class="bar"></div>
+				</div>
+				<div class="level">
+					<!-- {{x.level}} -->
+				</div>
+			</div>
+
+			<!-- <div class="ad" ng-controller="ad">
+			<input type="text" ng-model="search" value="Search" class=""/>
+			<ul ng-repeat="x in barter" class="{{ x.name }}">
+			<h1>{{ x.name }}</h1>
+			<li ng-repeat="item in x.items|filter:search">{{ item }},&nbsp;</li>
+		</ul>
+	</div> -->
+</div>
+</div>
+</div>
+</div>
