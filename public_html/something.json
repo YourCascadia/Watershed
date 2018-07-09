@@ -1,0 +1,41 @@
+[
+  {
+    "number": "2013-W45",
+    "days": [
+      {
+        "dow": "1",
+        "templateDay": "Monday",
+        "jobs": [
+          {
+            "name": "Wakeup",
+            "jobs": [
+              {
+                "name": "prepare breakfast",
+
+              }
+            ]
+          },
+          {
+            "name": "work 9-5",
+
+          }
+        ]
+      },
+      {
+        "dow": "2",
+        "templateDay": "Tuesday",
+        "jobs": [
+          {
+            "name": "Wakeup",
+            "jobs": [
+              {
+                "name": "prepare breakfast",
+
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+<div data-role="page" id="content">
+	<div id="right" class="levelone right">
+		<div class="chart">
+			<div class="chart-box">
+            	<canvas id="myChart"></canvas>	
+        	</div>
+        	<div class="chart-info" ng-controller="CBFS">
+				<h1>My CBFS</h1>
+				<ul>
+			    	<li ng-repeat="ul in c">{{ul.title}} <span>{{ ul.number }}</span><input type="text" placeholder="{{ ul.number }}"></li>
+				</ul>
+				<button id="update" type="button">Update</button>
+			</div>
+        </div>
+        <div class="simulations w35">
+        	<h1>Simulations</h1>
+        	<p>Lorem Ipsum</p>
+        	<div class="line-chart">
+        		<canvas id="line-chart" width="300" height="200"></canvas>
+        	</div>
+        </div>
+        <div class="initiatives w35">
+        	<h1>My Initiatives</h1>
+        	<p>Lorem Ipsum</p>
+        </div>
+
+        <div class="proxies w35">
+        	<h1>My Proxies</h1>
+        	<p>Lorem Ipsum</p>
+        </div>
+    </div>
+
+    <div class="feed" ng-controller="feed">
+		<div ng-repeat="obj in data" class="innerfeed">
+			<div class="feedImg"><img src="_assets/images/bearman.jpg"></div>
+			<div class="feedtext">
+				<h3>{{ obj.userName }}</h3>
+				<p>{{ obj.action }} a <span>{{ obj.what[0] }}</span> - {{ obj.what[1] }}</p>
+				<p>{{ obj.when | date:'medium' }}</p>
+			</div>
+		</div>
+    </div>
+</div>

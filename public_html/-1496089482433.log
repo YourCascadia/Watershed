@@ -1,0 +1,455 @@
+fonts.googleapis.com/css?family=Open+Sans Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg Failed to load resource: net::ERR_FILE_NOT_FOUND
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+index.html:30 GET https://fonts.googleapis.com/css?family=Open+Sans net::ERR_CONNECTION_CLOSED
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+program.js:443 Uncaught SyntaxError: Unexpected token ;
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+additional.js:34 Uncaught SyntaxError: Unexpected token }
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+additional.js:34 Uncaught SyntaxError: Unexpected token }
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+additional.js:34 Uncaught SyntaxError: Unexpected token }
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+additional.js:34 Uncaught SyntaxError: Unexpected token }
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:426 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:426)
+    at m.fn.init.$.fn.badgeClick (program.js:443)
+    at HTMLDivElement.<anonymous> (program.js:465)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:426
+$.fn.badgeClick @ program.js:443
+(anonymous) @ program.js:465
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+Navigated to file:///C:/Users/Ethan/Dropbox/LEDDA/send/index.html
+additional.js:34 Uncaught SyntaxError: Unexpected token }
+program.js:272 Needs,lorem Ipsum,lorem ipsum,Wants,lorem noralkj,normalized text,Has,something else,something,Will,what?,something or another ad
+favicon.jpg:1 GET file:///C:/Users/Ethan/Dropbox/LEDDA/send/favicon.jpg net::ERR_FILE_NOT_FOUND
+program.js:431 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:431)
+    at m.fn.init.$.fn.badgeClick (program.js:448)
+    at HTMLDivElement.<anonymous> (program.js:470)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:431
+$.fn.badgeClick @ program.js:448
+(anonymous) @ program.js:470
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:431 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:431)
+    at m.fn.init.$.fn.badgeClick (program.js:448)
+    at HTMLDivElement.<anonymous> (program.js:470)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:431
+$.fn.badgeClick @ program.js:448
+(anonymous) @ program.js:470
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:431 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:431)
+    at m.fn.init.$.fn.badgeClick (program.js:448)
+    at HTMLDivElement.<anonymous> (program.js:470)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:431
+$.fn.badgeClick @ program.js:448
+(anonymous) @ program.js:470
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:431 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:431)
+    at m.fn.init.$.fn.badgeClick (program.js:448)
+    at HTMLDivElement.<anonymous> (program.js:470)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:431
+$.fn.badgeClick @ program.js:448
+(anonymous) @ program.js:470
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:431 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:431)
+    at m.fn.init.$.fn.badgeClick (program.js:448)
+    at HTMLDivElement.<anonymous> (program.js:470)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:431
+$.fn.badgeClick @ program.js:448
+(anonymous) @ program.js:470
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
+program.js:431 Uncaught TypeError: Cannot read property 'badgeTitle' of undefined
+    at m.fn.init.$.fn.badgeHighlight (program.js:431)
+    at m.fn.init.$.fn.badgeClick (program.js:448)
+    at HTMLDivElement.<anonymous> (program.js:470)
+    at HTMLDivElement.handle (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.dispatch (jquery-1.11.3.min.js:4)
+    at HTMLDivElement.r.handle (jquery-1.11.3.min.js:4)
+$.fn.badgeHighlight @ program.js:431
+$.fn.badgeClick @ program.js:448
+(anonymous) @ program.js:470
+handle @ jquery-1.11.3.min.js:4
+dispatch @ jquery-1.11.3.min.js:4
+r.handle @ jquery-1.11.3.min.js:4
