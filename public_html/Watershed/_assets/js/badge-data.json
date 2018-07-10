@@ -1,0 +1,69 @@
+[ 
+    {
+        "bgImgName":"0.png",
+        "badgeTitle":"Lv 1 - Token Badge",
+        "badgeInfo":"Receive your first Token wage",
+        "badgeDetails": ["juice: +2", "Tokens gained: 500/mo"]   
+    },
+    
+    {
+        "bgImgName":"1.png",
+        "badgeTitle":"Lv 2 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["jamba: +2", "Tokens gained: 125/mo"]
+    },
+    {
+        "bgImgName":"2.png",
+        "badgeTitle":"Lv 3 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["badges: +2", "Tokens gained: 356/mo"]
+    },
+    {
+        "bgImgName":"3.png",
+        "badgeTitle":"Lv 4 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["hash: +2", "Tokens gained: 500/mo"]
+    },
+    {
+        "bgImgName":"4.png",
+        "badgeTitle":"Lv 5 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["dummy: +2", "Tokens gained: 129/mo"]
+    },
+    {
+        "bgImgName":"5.png",
+        "badgeTitle":"Lv 6 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["action: +2", "Tokens gained: 500/mo"]
+    },
+    {
+        "bgImgName":"6.png",
+        "badgeTitle":"Lv 7 - Token Badge",
+        "badgeInfo":"get your seasadcond Tokreen wage",
+        "badgeDetails": ["VERSION: +2", "Tokens gained: 467/mo"]
+    },
+    {
+        "bgImgName":"7.png",
+        "badgeTitle":"Lv 8 - Token Badge",
+        "badgeInfo":"Receive adjust second Token wage",
+        "badgeDetails": ["Rennaissance: +2", "Tokens gained: 500/mo"]
+    },
+    {
+        "bgImgName":"8.png",
+        "badgeTitle":"Lv 9 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["Reputation: +2", "Tokens gained: 500/mo"]
+    },
+    {
+        "bgImgName":"9.png",
+        "badgeTitle":"Lv 10 - Token Badge",
+        "badgeInfo":"Receive your second Tollamaken wage",
+        "badgeDetails": ["Reputation: +1", "Tokens gained: 500/mo"]
+    },
+    {
+        "bgImgName":"10.png",
+        "badgeTitle":"Lv 11 - Token Badge",
+        "badgeInfo":"Receive your second Token wage",
+        "badgeDetails": ["Dexterity: +2", "Tokens gained: 500/mo"]
+    }
+];

@@ -1,0 +1,38 @@
+[
+    {
+        "firstName":"Ethan",
+        "lastName":"Shaffer",
+        "location":"Portland, Oregon",
+        "profileImage": "bearman.jpg",
+        "age":27,
+        "profileData":"",
+        "bars": [ ["Tokens", 598.65, 1000, 5], ["Reputation", 73.6, 100, 7], ["Votes Cast", 21, 100, 2], ["Exchanges", 427, 500, 11] ],
+        "graphData": [33, 26.5, 17, 10.5, 6.7, 6.3],
+        "graphLegend": ["Education", "Environment", "Public Welfare", "Health Services", "Business Loans", "LEDDA Admin"],
+        "graphColors": ["#FF6384", "#336699", "#abcdef", "#456456", "#123123", "#123456"],
+        "profileIntro":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum pass"age"s, and more recently with desktop publishing software like Aldus P"age"Maker including versions of Lorem Ipsum.",
+        "profileQuote":"I sure would like some ice cream right about now",
+        "badge": [0, 1, 2, 3, 4, 5, 6, 7, 5, 5, 5, 8, 9],
+        "ad": [ ["Needs", "lorem Ipsum", "lorem ipsum"], ["Wants", "lorem noralkj", "normalized text"], ["Has", "something else", "something"], ["Will", "what?", "something or another"] ],
+        "friends": [1, 2]
+    },
+    
+    {
+        "firstName":"Elliott",
+        "lastName":"Karten",
+        "location":"Portland, Oregon",
+        "profileImage": "bearman.jpg",
+        "age":27,
+        "profileData":"",
+        "bars": [ ["Tokens", 598.65, 1000, 5], ["Reputation", 73.6, 100, 7], ["Votes Cast", 21, 100, 2], ["Exchanges", 427, 500, 11] ],
+        "graphData": [33, 26.5, 17, 10.5, 6.7, 6.3],
+        "graphLegend": ["Education", "Alphabet Soup", "Public Welfare", "Health Services", "Business Loans", "LEDDA Admin"],
+        "graphColors": ["#FF6384", "#336699", "#abcdef", "#456456", "#123123", "#123456"],
+        "profileIntro":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum pass"age"s, and more recently with desktop publishing software like Aldus P"age"Maker including versions of Lorem Ipsum.",
+        "profileQuote":"I sure would like some jamba juice right about now",
+        "badge": [2,7],
+        "ad": [ ["needs", "lorem Ipsum", "lorem ipsum"], ["wants", "lorem noralkj", "normalized text"], ["has", "something else", "something"], ["will", "what?", "something or another"] ],
+        "friends": [0, 2]
+    }
+];
+    
