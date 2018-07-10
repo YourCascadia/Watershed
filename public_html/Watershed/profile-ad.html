@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<!-- Watershed Version 4.0 -->
+<head>
+	<title>Watershed</title>
+	<link href="favicon.jpg" rel="shortcut icon"><!-- Placeholder links for favicon -->
+	<link href="favicon.jpg" rel="apple-touch-icon">
+	<link href="_assets/css/global.css" rel="stylesheet"><!-- Main CSS file -->
+
+	<script src="http://d3js.org/d3.v4.0.0-alpha.4.min.js"></script><!--NEW D3 file -->
+	<script src="_assets/js/canvasjs.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js">
+	</script>
+	
+	<script src="_assets/js/jquery-ui.min.js"></script><!-- Javascript file for dragging and dropping -->
+	<script src="_assets/js/touch-punch.js"></script>
+	<script src="_assets/js/jquery.mousewheel.js"></script>
+	<script src="_assets/js/mwheelIntent.js"></script>
+	<script src="_assets/js/jquery.jscrollpane.min.js"></script>	
+	
+	<script src="_assets/js/program-ex.js"></script><!-- Main Javascript file -->
+	<script src="_assets/js/additional.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!-- Loading font -->
+	<!-- Meta Properties -->
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="Watershed" property="og:title">
+	<meta content="website" property="og:type">
+	<meta content="http://www.anything.com/" property="og:url">
+	<meta content="Watershed" property="og:site_name">
+</head><!-- "theme" currently doesn't do anything -->
+<body class="theme" ng-app="app">
+<script>
+    var feedData = [ 
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        },
+        {
+            "userName":"Terry Dacktille",
+            "action":"submitted", 
+            "what":["New cause","Museum of Natural History fund"],
+            "when":"1288323623006"
+
+        }
+    ];
+
+
+    //var badgeData = [1,2,3,4,5,6];
+
+    var badgeData = [{"n": "5"}, {"n": "1"}, {"n": "2"}, {"n": "3"}, {"n": "4"}, {"n": "5"}, {"n": "6"}, {"n": "7"}, {"n": "5"}, {"n": "4"}, {"n": "3"}, {"n": "8"}, {"n": "9"}];
+
+    var barsData = [{"title":"Tokens", "number":598.65, "over":1000, "level":5}, {"title":"Reputation", "number":73.6, "over":100, "level":7}, {"title":"Votes Cast", "number":21, "over":100, "level":2}, {"title":"Exchanges", "number":427, "over":500, "level":11}];
+
+    var cbfsData = [{"title":"Education", "number":33}, {"title":"Environment", "number":26.5}, {"title":"Public Welfare", "number":17}, {"title":"Health Services", "number":10.5}, {"title":"Business Loans", "number":6.7}, {"title":"Watershed Admin", "number":6.3}];
+
+    var barter = [{"name":"Needs", "items":["lorem ipsum", "lorem ispupm"]},
+	{"name":"Wants", "items":["lorem ipsum", "lorem ispupm"]},
+	{"name":"Has", "items":["lorem ipsum", "lorem ispupm"]},
+	{"name":"Will", "items":["lorem ipsum", "lorem ispupm"]}];
+    
+
+    var app = angular.module("app", []); 
+        
+ //    app.config(function($routeProvider) {
+ //  		$routeProvider
+	// 	  .when("/", {
+	// 	    templateUrl : "main.htm"
+	//   	})
+	// 	  .when("/red", {
+	// 	    templateUrl : "red.htm"
+	//   	})
+	// 	  .when("/green", {
+	// 	    templateUrl : "green.htm"
+	//   	})
+	// 	  .when("/blue", {
+	// 	    templateUrl : "blue.htm"
+ //  		});
+	// });
+
+    app.controller('feed', function($scope) {
+        $scope.data = feedData;
+    });
+
+    app.controller('badges', function($scope) {
+        $scope.e = badgeData;
+    });
+
+    app.controller('bars', function($scope) {
+        $scope.bars = barsData;
+    });
+
+    app.controller('CBFS', function($scope) {
+        $scope.c = cbfsData;
+    });
+
+    app.controller('ad', function($scope) {
+		$scope.barter = barter;
+	});
+
+    </script>
+	<!-- Main Body of the Program -->
+	<div class="openScreen hidden" >
+		<div class="contentS">
+		<h1>Watershed</h1>
+			<div class="c1">
+				<h2>Existing User</h2>
+				
+				<form action="" onsubmit="$(document).continueLoading()">
+					<label>Username: </label><input type="text" name="user" required><br>
+					<label>Password: </label><input type="password" name="password" required>
+					<input type="submit" value="Submit">
+				</form>
+				<h2>New User? Create an account <a href="" onclick="$(document).newUser()">here</a></h2>
+				<a class="button" href="" onclick="$(document).continueLoading()">Default opening screen / data loading</a>
+				<a class="button" href="" onclick="$(document).continueLoading()">Open Screen 1</a>
+				<a class="button" href="" onclick="$(document).continueLoading()">Open Screen 2</a>
+				<a class="button" href="" onclick="$(document).continueLoading()">Open Screen 3</a>
+			</div>
+			<div class="c2">
+				<h2>New User</h2>
+				
+				<form action="" onsubmit="$(document).continueLoading()">
+					<label>First Name: </label><input type="text" name="fname" required><br>
+					<label>Last Name: </label><input type="text" name="lname" required><br>
+					<label>City: </label><input type="text" name="city" required><br>
+					<label>Username: </label><input type="text" name="user" required><br>
+					<label>Password: </label><input type="password" name="password" required>
+					<input type="submit" value="Submit">
+				</form>
+				<h2>Existing User? Login <a href="" onclick="$(document).newUser()">here</a></h2>
+				<a href="" onclick="$(document).continueLoading()">Default opening screen / data loading</a>
+				<a href="" onclick="$(document).continueLoading()">Open Screen 1</a>
+				<a href="" onclick="$(document).continueLoading()">Open Screen 2</a>
+				<a href="" onclick="$(document).continueLoading()">Open Screen 3</a>
+
+			</div>
+		</div>
+	</div>
+	<div class="canvas" >
+		<div id="contextmenu">
+			<div class="xbutton">
+				<h3>X</h3>
+			</div>
+		</div>
+		<div id="badgemenu">
+			<div class="xbutton">
+				<h3>X</h3>
+			</div>
+			<div class="innercontent">
+				<div class="badges" ng-controller="badges">
+					<div  class="badgelist">
+						<div ng-repeat="n in e" class="badge b{{n.n}}"></div>
+					</div>
+				</div>
+				<div class="badgehighlight"></div>
+			</div>
+		</div>
+		<div class="profiletop">
+			<div id="pic" class="leftshadow profilepic" ><img src="_assets/images/bearman.jpg" title="Profile Picture"></div>
+			<div class="profiletext">
+				<h2>Barry Manowitz</h2>
+				<h2><span>Portland, Oregon</span></h2>I sure would like some ice cream right about now
+			</div>
+		</div>
+		<div id="profilemenu">
+			<div id="profilesmall"><img src="_assets/images/bearman.jpg"></div>
+			<div id="profilebuttons">
+				<div class="buttons"><img src="_assets/images/bearman.jpg"></div>
+				<div class="buttons"><img src="_assets/images/bearman.jpg"></div>
+			</div>
+		</div>
+		<div id="popup">
+
+		</div>
+		<div class="middle rightshadow" id="button">
+			<div class="exists" id="buttonleft">
+				<div class="arrowleft bounceleft" id="bleftarrow"></div>
+			</div>
+			<div class="exists" id="buttonright">
+				<div class="arrowright bounceright" id="brightarrow"></div>
+			</div>
+		</div>
+		<div data-role="page" id="content">
+			<div id="right" class="levelone right">
+				<div class="chart">
+					<div class="chart-box">
+	                	<canvas id="myChart"></canvas>	
+	            	</div>
+	            	<div class="chart-info" ng-controller="CBFS">
+						<h1>My CBFS</h1>
+						<ul>
+					    	<li ng-repeat="ul in c">{{ul.title}} <span>{{ ul.number }}</span><input type="text" placeholder="{{ul.number}}"></li>
+						</ul>
+						<button id="update" type="button">Update</button>
+					</div>
+	            </div>
+	            <div class="simulations w35">
+	            	<h1>Simulations</h1>
+	            	<p>Lorem Ipsum</p>
+	            	<div class="line-chart">
+	            		<canvas id="line-chart" width="300" height="200"></canvas>
+	            	</div>
+	            </div>
+	            <div class="initiatives w35">
+	            	<h1>My Initiatives</h1>
+	            	<p>Lorem Ipsum</p>
+	            </div>
+
+	            <div class="proxies w35">
+	            	<h1>My Proxies</h1>
+	            	<p>Lorem Ipsum</p>
+	            </div>
+            </div>
+
+            <div class="feed" ng-controller="feed">
+				<div ng-repeat="obj in data" class="innerfeed">
+					<div class="feedImg"><img src="_assets/images/bearman.jpg"></div>
+					<div class="feedtext">
+						<h3>{{ obj.userName }}</h3>
+						<p>{{ obj.action }} a <span>{{ obj.what[0] }}</span> - {{ obj.what[1] }}</p>
+						<p>{{ obj.when | date:'medium' }}</p>
+					</div>
+				</div>
+            </div>
+		</div>
+		<div data-role="page" id="profile" >
+			<div class="levelone left" id="left">
+				<div class="profileinfo" ng-controller="bars">
+					<div class="badges" ng-controller="badges">
+						<div  class="badgelist">
+							<div ng-repeat="n in e" class="badge b{{n.n}}"></div>
+						</div>
+						<div class="bafter">...</div>
+					</div>
+					<div class="prebars" ng-repeat="x in bars">
+						<div class="numbers">
+							{{x.title}} <span class="number">{{x.number}}</span><span class="over">{{x.over}}</span>
+						</div>
+						<div class="bars">
+							<div class="bar"></div>
+						</div>
+						<div class="level">
+							{{x.level}}
+						</div>
+					</div>
+
+					<div class="ad" ng-controller="ad">
+						<input type="text" ng-model="search.item"/>
+						<ul ng-repeat="x in barter" class="{{ x.name }}">
+							<h1>{{ x.name }}</h1>
+							<li ng-repeat="item in x.items|filter:search">{{ item }},&nbsp;</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
